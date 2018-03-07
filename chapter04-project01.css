@@ -1,0 +1,121 @@
+/* Makes the background of the page light purple */
+body {
+  background-color: #E8EAF6;
+}
+
+/* Makes the background of the headers dark purple */
+header, footer {
+  color:  white;
+  background-color: #1A237E;
+  margin:  0em 4em 0.25em 4em;
+}
+
+/* Changes the font of the top header with appropriate spacing */
+header h1 {
+  font-family: sans-serif;
+  padding: 1em 0em 0em 1em;
+}
+
+/* Changes the style of the header's tagline */
+header p {
+  font-style: italic;
+  padding: 0em 0em 1em 1em;
+}
+
+/* Makes the background of the navigation section a different shade of purple */
+nav {
+  background-color: #3F51B5;
+  padding: 0.5em 0em 0.5em 1em;
+}
+
+/* Makes the navigation links line up horizontally */
+nav li {
+  display: inline-block;
+  margin-right: 0.5em;
+}
+
+/* Makes the background of each navigation link turn red when hovered */
+nav li:hover {
+  background-color: #F50057;
+  color: #FFFFFF;
+  display: inline;
+  padding: 0.5em;
+}
+
+/* Changes the color of links in the navigation a different shade of blue */
+nav a {
+  color: #00B0FF;
+}
+
+/* Makes the main content area white */
+main {
+  background-color: #FFFFFF;
+  margin: 1em 4em 1em 4em;
+  padding: 1em;
+}
+
+/* Makes each section of the main content area have a border with appropriate spacing */
+main section {
+  border: 1px solid #C5CAC9;
+  margin-bottom: 1em;
+}
+
+/* Makes the background of section headers a dark purple */
+main h2,h3 {
+  color: #FFFFFF;
+  text-transform: uppercase;
+  font-weight: lighter;
+  font-family: sans-serif;
+  background-color: #7986CB;
+  padding: 1em;
+}
+
+/* Makes the background of the image area of a section light purple */
+figure {
+  background-color: #C5CAE9;
+}
+
+/* Fixes the sizing of the image */
+figure img {
+  width: 100%;
+  height: 100%;
+  object-fit: fill;
+}
+
+/* Changes the spacing and font color of the image caption */
+figure figcaption {
+  padding: 0.5em 0em 0.5em 1em;
+  margin: 0em;
+  color: #69778E;
+}
+
+/* Fixes spacing of the regular text content in a section */
+section p {
+  padding: 0.5em 0em 0.5em 1em;
+}
+
+/* fixes spacing for each individual review of the reviews section */
+#reviews div {
+  border-bottom: 1px;
+  margin: 0.5em;
+}
+
+/* Changes the color of the authors of each review  */
+.byline {
+  color: #7986CB;
+}
+
+/* Changes the color of the times of each review */
+.byline time {
+  color: #FF80AB;
+}
+
+/* Fixes the spacing within the footer */
+footer {
+  padding: 1.5em 0em 1.5em 1em;
+}
+
+/* Fixes the link colors in the footer */
+footer a {
+  color: #00B0FF;
+}
